@@ -25,6 +25,8 @@ public class StageInitializer implements ApplicationListener<StageReadyEvent> {
             Parent parent=fxmlLoader.load();
             Stage stage = event.getStage();
             stage.setScene(new Scene(parent,1445,833));
+            stage.setTitle("Desktop Wallpaper Manager");
+
             stage.show();
         } catch (IOException e) {
             throw new RuntimeException();

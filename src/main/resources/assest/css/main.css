@@ -5,3 +5,16 @@
     -fx-border-width: 0 0 2 0;
     -fx-border-color: #676767;
 }
+.buttom{
+    -fx-background-color: #1C90E4;
+    -fx-background-radius: 50;
+}
+.transparent{
+    -fx-background-color: #222222;
+}
+.gradient{
+    -fx-background-color: linear-gradient(to top, #222222, transparent);
+}
+.shadow{
+    -fx-effect: dropShadow(three-pass-box, rgb(0,0,0,0.2), 10,0,0,10);
+}
