@@ -1,36 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="433.0" styleClass="shadow" stylesheets="@../assest/css/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dulanjanalakshan.dwcui.Controller.CityController">
    <children>
-      <ImageView fx:id="img" fitHeight="250.0" fitWidth="433.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" smooth="false" />
-      <HBox prefHeight="250.0" prefWidth="433.0" styleClass="gradient" stylesheets="@../assest/css/main.css">
-         <children>
-            <VBox alignment="BOTTOM_CENTER" prefHeight="250.0" prefWidth="154.0">
-               <children>
-                  <Label alignment="CENTER" prefHeight="48.0" prefWidth="155.0" text="Trip To" textAlignment="CENTER" textFill="WHITE">
-                     <font>
-                        <Font size="24.0" />
-                     </font>
-                  </Label>
-                  <Label fx:id="name" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="24.0" prefWidth="154.0" text="Beirut" textAlignment="CENTER" textFill="WHITE">
-                     <font>
-                        <Font name="System Bold" size="24.0" />
-                     </font>
-                  </Label>
-               </children>
-               <padding>
-                  <Insets bottom="20.0" />
-               </padding>
-            </VBox>
-         </children>
-      </HBox>
+      <ImageView fx:id="img" fitHeight="250.0" fitWidth="433.0" layoutX="-2.0" layoutY="-1.0" onMouseClicked="#OnClickImage" pickOnBounds="true" smooth="false" />
    </children>
 </Pane>

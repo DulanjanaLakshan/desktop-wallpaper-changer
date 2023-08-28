@@ -46,56 +46,37 @@ public class MainController implements Initializable {
     private List<City> getCities() {
         List<City> ls = new ArrayList<>();
         City city = new City();
-        city.setName("Example");
         city.setImgSrc("/assest/img/wall/Hotel-In-Coleman-Alberta-BCMI-Coleman.jpeg");
         ls.add(city);
 
 
         city = new City();
-        city.setName("Example");
         city.setImgSrc("/assest/img/wall/People_Friends__entertainment__recreation_A_trip_to_the_sea_012981_.jpg");
         ls.add(city);
 
 
         city = new City();
-        city.setName("Example");
-        city.setImgSrc("/assest/img/wall/shutterstock_97953608.webp");
-        ls.add(city);
-
-
-        city = new City();
-        city.setName("Example");
         city.setImgSrc("/assest/img/wall/puteshestvennik_odinokij_odinochestvo_164795_2560x1600.jpg");
         ls.add(city);
 
 
         city = new City();
-        city.setName("Example");
-        city.setImgSrc("/assest/img/wall/wp3067419.webp");
-        ls.add(city);
-
-
-        city = new City();
-        city.setName("Example");
         city.setImgSrc("/assest/img/wall/1654427562_10-celes-club-p-oboi-na-rabochii-stol-puteshestviya-krasiv-16.jpg");
         ls.add(city);
 
 
         city = new City();
-        city.setName("Example");
         city.setImgSrc("/assest/img/wall/travel-4k-clouds-mountains-7wmoz9la6tfkmvtr.jpg");
         ls.add(city);
 
 
         city = new City();
-        city.setName("Example");
         city.setImgSrc("/assest/img/wall/wp3067481.jpg");
         ls.add(city);
 
 
         city = new City();
-        city.setName("Example");
-        city.setImgSrc("/assest/img/wall/wp7016482.webp");
+        city.setImgSrc("/assest/img/wall/Look-at-The-Himalayan-Wonders-in-Mera-Peak.jpg");
         ls.add(city);
 
         return ls;
