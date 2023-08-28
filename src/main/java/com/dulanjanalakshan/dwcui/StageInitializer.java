@@ -24,7 +24,7 @@ public class StageInitializer implements ApplicationListener<StageReadyEvent> {
             FXMLLoader fxmlLoader = new FXMLLoader(WallpaperResource.getURL());
             Parent parent=fxmlLoader.load();
             Stage stage = event.getStage();
-            stage.setScene(new Scene(parent));
+            stage.setScene(new Scene(parent,1445,833));
             stage.show();
         } catch (IOException e) {
             throw new RuntimeException();

@@ -1,14 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.dulanjanalakshan.dwcui.Controller.MainController"
-            prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="833.0" prefWidth="1300.0" styleClass="body" stylesheets="@../assest/css/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dulanjanalakshan.dwcui.Controller.MainController">
+   <top>
+      <HBox prefHeight="125.0" prefWidth="200.0" spacing="20.0" styleClass="border-bottom" stylesheets="@../assest/css/main.css" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="125.0" prefWidth="120.0" spacing="10.0">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/img/icons8-menu-100.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#a6aaaa" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu">
+                     <font>
+                        <Font name="Yu Gothic UI Semibold" size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <HBox prefHeight="125.0" prefWidth="287.0" HBox.hgrow="ALWAYS" />
+            <VBox alignment="CENTER" prefHeight="125.0" prefWidth="107.0" spacing="20.0">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/img/icons8-traveler-100.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#22bddf" strokeType="OUTSIDE" strokeWidth="0.0" text="Traveling">
+                     <font>
+                        <Font name="Yu Gothic UI Semibold" size="15.0" />
+                     </font>
+                  </Text>
+               </children></VBox>
+            <VBox alignment="CENTER" layoutX="130.0" layoutY="10.0" prefHeight="125.0" prefWidth="109.0" spacing="20.0">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/img/icons8-game-100%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#a6aaaa" strokeType="OUTSIDE" strokeWidth="0.0" text="Gaming">
+                     <font>
+                        <Font name="Yu Gothic UI Semibold" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="230.0" layoutY="10.0" prefHeight="125.0" prefWidth="111.0" spacing="20.0">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/img/icons8-programmer-64.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#a6aaaa" strokeType="OUTSIDE" strokeWidth="0.0" text="Programming">
+                     <font>
+                        <Font name="Yu Gothic UI Semibold" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="330.0" layoutY="10.0" prefHeight="125.0" prefWidth="108.0" spacing="20.0">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/img/icons8-programmer-64.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#a6aaaa" strokeType="OUTSIDE" strokeWidth="0.0" text="Traveling">
+                     <font>
+                        <Font name="Yu Gothic UI Semibold" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="430.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/img/icons8-male-user-100.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#a6aaaa" strokeType="OUTSIDE" strokeWidth="0.0" text="Traveling">
+                     <font>
+                        <Font name="Yu Gothic UI Semibold" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+            <HBox prefHeight="125.0" prefWidth="256.0" HBox.hgrow="ALWAYS" />
+            <VBox alignment="CENTER" layoutX="685.0" layoutY="10.0" prefHeight="125.0" prefWidth="68.0" spacing="10.0">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/img/icons8-alarm-100.png" />
+                     </image>
+                  </ImageView>
+                  <Circle fill="DODGERBLUE" radius="4.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                  <Text fill="#a6aaaa" strokeType="OUTSIDE" strokeWidth="0.0">
+                     <font>
+                        <Font name="Yu Gothic UI Semibold" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="785.0" layoutY="10.0" prefHeight="125.0" prefWidth="66.0" spacing="10.0">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/img/icons8-search-100.png" />
+                     </image>
+                  </ImageView>
+                  <Circle fill="#222222" radius="4.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                  <Text fill="#a6aaaa" strokeType="OUTSIDE" strokeWidth="0.0">
+                     <font>
+                        <Font name="Yu Gothic UI Semibold" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets left="20.0" right="20.0" />
+         </BorderPane.margin>
+      </HBox>
+   </top>
+</BorderPane>
